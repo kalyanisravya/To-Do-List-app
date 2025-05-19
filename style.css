@@ -1,0 +1,88 @@
+body {
+ 
+  font-family: 'Quicksand', sans-serif;
+
+
+  background-image: url('https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=1400&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end; /* Aligns container to the right */
+  align-items: center;
+  padding-right: 80px; /* Optional: Adds space from the edge */
+}
+
+
+
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0 9px 20px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  width: 320px;
+  backdrop-filter: blur(30px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: rgb(61, 30, 237); /* Text color to match the glass background */
+}
+
+
+input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 5px;
+  border: none;
+  background: #2c7be5;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1a5dcc;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  padding: 10px;
+  background: #f1f1f1;
+  margin: 5px 0;
+  border-radius: 8px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+li.done {
+  text-decoration: line-through;
+  color: gray;
+  background: #d0f0d0;
+}
+
+#emojiDisplay {
+  font-size: 40px;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+#moodMessage {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #444;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
