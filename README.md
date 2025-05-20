@@ -21,7 +21,7 @@ It stores data using browser local storage for persistence.
 - JavaScript 
 
 ## 🔗 Live Demo
-[Click here to view the app](https://kalyanisravya.github.io/todo-list-app/)
+[Click here to view the app](https://kalyanisravya.github.io/To-Do-List-app/)
 
 ## 📸 Screenshot
 
